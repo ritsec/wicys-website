@@ -1,0 +1,42 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 09 Mar 2026 12:51:04 at / +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+/
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wicysrit.wordpress.com/ -O1 "C:\My Web Sites\wicyrit" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,/
+//
+	such as username/password authentication f/oject/
+//
+	do not share these files/folders if you wa/private/
+//
+//
+//
+12:52:09	Warning: 	Retry after error -4 (Connect Error) at link 0.gravatar.com/js/hovercards/hovercards.min.js?ver=202611924dcd77a86c6f1d3698ec27fc5da92b28585ddad3ee636c0397cf312193b2a1 (from /)
+/
+12:52:09	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/GET (from https://wicysrit.wordpress.com/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/about-us/GET (from https://wicysrit.wordpress.com/about-us/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/wp-content/uploads/2025/09/img_5266.jpeg?w=750 (from https://wicysrit.wordpress.com/e-board/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/e-board/GET (from https://wicysrit.wordpress.com/e-board/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/schedule/GET (from https://wicysrit.wordpress.com/schedule/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/research/GET (from https://wicysrit.wordpress.com/research/)
+
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/sponsor-us/GET (from https://wicysrit.wordpress.com/sponsor-us/)
+
+12:52:10	Warning: 	Retry after error -4 (Connect Error) at link 0.gravatar.com/js/hovercards/hovercards.min.js?ver=202611924dcd77a86c6f1d3698ec27fc5da92b28585ddad3ee636c0397cf312193b2a1 (from https://wicysrit.wordpress.com/)
+
+12:52:10	Error: 	"Connect Error" (-4) after 2 retries at link 0.gravatar.com/js/hovercards/hovercards.min.js?ver=202611924dcd77a86c6f1d3698ec27fc5da92b28585ddad3ee636c0397cf312193b2a1 (from https://wicysrit.wordpress.com/)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 6 seconds : 92 links scanned, 81 files written (46463163 bytes overall) [45128832 bytes received at 683770 bytes/sec], 2466860 bytes transferred using HTTP compression in 47 files, ratio 24%, 7.4 requests per connection
+
+(8 errors, 2 warnings, 0 messages)
+
