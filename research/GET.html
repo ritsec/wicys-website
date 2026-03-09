@@ -111,38 +111,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https://s1.wp.com/wp-content/mu-pl
 <link rel="search" type="application/opensearchdescription+xml" href="/osd.xml" title="WiCyS @ RIT" />
 <link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
 <meta name="description" content="Women in Cybersecurity at Rochester Intitute of Technology" />
-		<script type="text/javascript">
 
-			window.doNotSellCallback = function() {
-
-				var linkElements = [
-					'a[href="https://wordpress.com/?ref=footer_blog"]',
-					'a[href="https://wordpress.com/?ref=footer_website"]',
-					'a[href="https://wordpress.com/?ref=vertical_footer"]',
-					'a[href^="https://wordpress.com/?ref=footer_segment_"]',
-				].join(',');
-
-				var dnsLink = document.createElement( 'a' );
-				dnsLink.href = 'https://wordpress.com/advertising-program-optout/';
-				dnsLink.classList.add( 'do-not-sell-link' );
-				dnsLink.rel = 'nofollow';
-				dnsLink.style.marginLeft = '0.5em';
-				dnsLink.textContent = 'Do Not Sell or Share My Personal Information';
-
-				var creditLinks = document.querySelectorAll( linkElements );
-
-				if ( 0 === creditLinks.length ) {
-					return false;
-				}
-
-				Array.prototype.forEach.call( creditLinks, function( el ) {
-					el.insertAdjacentElement( 'afterend', dnsLink );
-				});
-
-				return true;
-			};
-
-		</script>
 		<style type="text/css" id="custom-colors-css">.screen-reader-text:focus,
 			body,
 			body .widget_eu_cookie_law_widget #eu-cookie-law,
@@ -496,7 +465,7 @@ input[type="color"]:focus,
 	
 		<div class="site-info">
 		<a class="site-name" href="/" rel="home">WiCyS @ RIT</a><span class="comma">,</span>
-<a href="https://wordpress.com/?ref=footer_custom_acom" rel="nofollow">A WordPress.com Website</a>.	</div><!-- .site-info -->
+	</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->

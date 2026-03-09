@@ -172,38 +172,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https://s1.wp.com/wp-content/mu-pl
 var wa_client = {}; wa_client.cmd = []; wa_client.config = { 'blog_id': 197347029, 'blog_language': 'en', 'is_wordads': false, 'hosting_type': 0, 'afp_account_id': null, 'afp_host_id': 5038568878849053, 'theme': 'pub/exford', '_': { 'title': 'Advertisement', 'privacy_settings': 'Privacy Settings' }, 'formats': [ 'inline', 'belowpost', 'bottom_sticky', 'sidebar_sticky_right', 'sidebar', 'gutenberg_rectangle', 'gutenberg_leaderboard', 'gutenberg_mobile_leaderboard', 'gutenberg_skyscraper' ] };
 /* ]]> */
 </script>
-		<script type="text/javascript">
 
-			window.doNotSellCallback = function() {
-
-				var linkElements = [
-					'a[href="https://wordpress.com/?ref=footer_blog"]',
-					'a[href="https://wordpress.com/?ref=footer_website"]',
-					'a[href="https://wordpress.com/?ref=vertical_footer"]',
-					'a[href^="https://wordpress.com/?ref=footer_segment_"]',
-				].join(',');
-
-				var dnsLink = document.createElement( 'a' );
-				dnsLink.href = 'https://wordpress.com/advertising-program-optout/';
-				dnsLink.classList.add( 'do-not-sell-link' );
-				dnsLink.rel = 'nofollow';
-				dnsLink.style.marginLeft = '0.5em';
-				dnsLink.textContent = 'Do Not Sell or Share My Personal Information';
-
-				var creditLinks = document.querySelectorAll( linkElements );
-
-				if ( 0 === creditLinks.length ) {
-					return false;
-				}
-
-				Array.prototype.forEach.call( creditLinks, function( el ) {
-					el.insertAdjacentElement( 'afterend', dnsLink );
-				});
-
-				return true;
-			};
-
-		</script>
 		<style type="text/css" id="custom-colors-css">.screen-reader-text:focus,
 			body,
 			body .widget_eu_cookie_law_widget #eu-cookie-law,
@@ -880,9 +849,7 @@ input[type="color"]:focus,
 
 
 	
-		<div class="site-info">
-		<a class="site-name" href="../index.html" rel="home">WiCyS @ RIT</a><span class="comma">,</span>
-<a href="https://wordpress.com/?ref=footer_custom_acom" rel="nofollow">A WordPress.com Website</a>.	</div><!-- .site-info -->
+
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
@@ -1158,21 +1125,7 @@ To find out more, including how to control cookies, see here:
 			<a href="../index.html">
 				<img loading='lazy' alt='' src='../wp-content/uploads/2022/01/cropped-favicon-wicysae05.png' srcset='/wp-content/uploads/2022/01/cropped-favicon-wicys.png 1x, /wp-content/uploads/2022/01/cropped-favicon-wicys.png 1.5x, /wp-content/uploads/2022/01/cropped-favicon-wicys.png 2x, /wp-content/uploads/2022/01/cropped-favicon-wicys.png 3x, /wp-content/uploads/2022/01/cropped-favicon-wicys.png 4x' class='avatar avatar-50' height='50' width='50' />				WiCyS @ RIT			</a>
 		</li>
-								<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
-							<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fwicysrit.wordpress.com%2Fresearch%2F&amp;signup_flow=account">Log in</a></li>
-																<li class="actnbr-shortlink">
-										<a href="https://wp.me/Pdm2YB-aY">
-											<span class="actnbr-shortlink__text">Copy shortlink</span>
-											<span class="actnbr-shortlink__icon"><svg class="gridicon gridicons-checkmark" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M9 19.414l-6.707-6.707 1.414-1.414L9 16.586 20.293 5.293l1.414 1.414"/></g></svg></span>
-										</a>
-									</li>
-																<li class="flb-report">
-									<a href="https://wordpress.com/abuse/?report_url=/research/" target="_blank" rel="noopener noreferrer">
-										Report this content									</a>
-								</li>
-															<li class="actnbr-subs">
-									<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
-								</li>
+								
 													</ul>
 					</div>
 				</div>
