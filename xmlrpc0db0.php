@@ -8,7 +8,7 @@
       <api name="Movable Type" blogID="1" preferred="false" apiLink="/xmlrpc.php" />
       <api name="MetaWeblog" blogID="1" preferred="false" apiLink="/xmlrpc.php" />
       <api name="Blogger" blogID="1" preferred="false" apiLink="/xmlrpc.php" />
-      <api name="Twitter" blogID="" preferred="false" apiLink="https://twitter-api.wordpress.com/" />
+      <!--<api name="Twitter" blogID="" preferred="false" apiLink="https://twitter-api.wordpress.com/" /> -->
     </apis>
   </service>
 </rsd>
