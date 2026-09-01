@@ -26,7 +26,7 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 
 12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/schedule/GET (from https://wicysrit.wordpress.com/schedule/)
 
-12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/research/GET (from https://wicysrit.wordpress.com/research/)
+12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/Presentations/GET (from https://wicysrit.wordpress.com/Presentations/)
 
 12:52:10	Error: 	"Not Found" (404) at link https://wicysrit.wordpress.com/sponsor-us/GET (from https://wicysrit.wordpress.com/sponsor-us/)
 
